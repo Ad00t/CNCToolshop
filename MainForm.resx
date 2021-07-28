@@ -1,0 +1,1796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="metroStyleExtender1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>473, 40</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tb_gCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 45</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tb_gCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>25, 3, 25, 3</value>
+  </data>
+  <data name="tb_gCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 240</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tb_gCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tb_gCode.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_gCode.Name" xml:space="preserve">
+    <value>tb_gCode</value>
+  </data>
+  <data name="&gt;&gt;tb_gCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_gCode.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;tb_gCode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 40</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>87</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 720</value>
+  </data>
+  <data name="tile_refreshPorts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_refreshPorts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1237, 47</value>
+  </data>
+  <data name="tile_refreshPorts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_refreshPorts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tile_refreshPorts.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="tile_refreshPorts.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tile_refreshPorts.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJ
+        TUUH5QcEAgE3FT0r9gAABIBJREFUSEutll1oXEUUx+8m1rbYWqrStH40ftCHYoXQ1vooSG0f1AZsUSy0
+        qIgoKCLI2sfiQ0rFCgU/KL4oVtAHrT4IWld8qEakSmgbwoKQxiYxa4y7JJtkd5P98Pc/M/eSbLPr3Zo/
+        /HdmzpzzP3fOzN07QRyUSqWgXC4H1Wo1qNVqS1Jz8pmbmwsmJiZ85NWoVCrm2xTz8/NRMkQ3EPQg4xfg
+        Mfg+PAXfhq/Bx/C5p1gsrvD+wczMjFdyUNLJyUlpdnjTYmiFTAaFQqEd5wfon0DsApyGjTAH/8D3U7if
+        xOsY28MLSprL5aR7APsHZlwInthWiOMWnN6lPw5bRZHYs2js1cP7LWjDdpC5v+APPp2D9iebzbYR0M3k
+        JSnUYQamEfgWfgI/hl9h+w3+I4c6ZJk/SuJbaJ9lPOHMtZRP6fZzdnZWpX2Oib/dfIQRAt9hbg8it/KA
+        K8fGxhJ9fX0JKnQdtvXM7cDndXx/hRWLcpiHP8KcjRxc4kwmYyeRYJUi6+YMJcROY+9ifxL0o5Org6OD
+        Un/i6W+kf4T+mCksDZdYQYjfj2HI2Q15CVCJGzSvZD09PebfCDof6IRnZB/tUuUXUsHo6Kiecg3i2qsQ
+        OhxJVqMyBiMjI166OdgqWwRci8absGBqVyMVvvz7aSMnxh+ywtVKGhe9vb1WFWLXI/Ee1N42QkqHajXO
+        Z7xBuEKZ7m0laX9/v+013IDWR2gsPFxLIaW92E4nOggEnuTda/Oa/4l0Om37ymG7g/YLSTilpkipNC/S
+        KbtxrUDwXpUsLgYGBlTiLcSd9Rpx8L0Saz9CXKbEnV4zFlRmYnYR+zJ8KSa7lfhLOgb659nzdV4zFoaH
+        h+3Ph/CWqJ9vYIifefq1XnNZwbmx91w0sMrPfFKt+AKJb3YzywedGeSD6enpNrWqkBIft6wOGQ7J1sHB
+        QR+yPOA105fpANQnM8mD3KhX4QkShn8eZSYOQR/y/8EqdfjuRvuyS1ErkfOgjHcxSDublfsMpVhVf3u4
+        ViCpqj5PG76ySnxIZWhn4qQ3ClNMPEobDA0N+fBrA4sSN6F/3kkbLmLbbBtNop0YdDMw4PgLk520wfj4
+        uJdpDTpQaF+PxltIhn+hFcZJPqcJc/Kr7mEi+rtj/DnJ9W21VyEu8vm8rZQv1QoW9CpSurUY0NLrujHS
+        06oxdDDxnfcRGFa/Jvg++vZ/rA9BI+iTKB350t5E7Bv08xLy0Buzm9ZHeOAo8W20uj8txO/YXmHuNvqh
+        X7h/1pdNcyRcw/gRxvrfDg+TkMP+DAc2oVO+CFo+DgruIvCc84+gPbqE/QR8HJEukt4JO+lvhbuxJ2EK
+        v/or8J/Yn9Z9ruHHJ7y6ILgZ51MELSxVCH3gdaW5AnVVysBZWA8kqufQe0ifzoZJQ0xNTVlyHFfSdhOs
+        //JmF/l6qMT9xCWJ76Df9Gwsgsqu/VMQrfbtYYRU5p+wjUJVoghLUKdW1+GLzJ+Gh4m5nbEtoJU3IkL4
+        aiAWPoTuz9vgHmxPwqfo74O7mNvEwWmPlzAI/gXIJgMnVYJoagAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;tile_refreshPorts.Name" xml:space="preserve">
+    <value>tile_refreshPorts</value>
+  </data>
+  <data name="&gt;&gt;tile_refreshPorts.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_refreshPorts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tile_refreshPorts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmb_port.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cmb_port.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1113, 50</value>
+  </data>
+  <data name="cmb_port.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="cmb_port.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 25</value>
+  </data>
+  <data name="cmb_port.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cmb_port.Name" xml:space="preserve">
+    <value>cmb_port</value>
+  </data>
+  <data name="&gt;&gt;cmb_port.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cmb_port.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmb_port.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1047, 50</value>
+  </data>
+  <data name="metroLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 4, 0</value>
+  </data>
+  <data name="metroLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="metroLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="metroLabel1.Text" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="metroLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Name" xml:space="preserve">
+    <value>metroLabel1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroTabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_consoleSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 568</value>
+  </data>
+  <data name="btn_consoleSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_consoleSend.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btn_consoleSend.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="&gt;&gt;btn_consoleSend.Name" xml:space="preserve">
+    <value>btn_consoleSend</value>
+  </data>
+  <data name="&gt;&gt;btn_consoleSend.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btn_consoleSend.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;btn_consoleSend.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb_consoleIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 568</value>
+  </data>
+  <data name="tb_consoleIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 23</value>
+  </data>
+  <data name="tb_consoleIn.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tb_consoleIn.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_consoleIn.Name" xml:space="preserve">
+    <value>tb_consoleIn</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleIn.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleIn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_console.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 311</value>
+  </data>
+  <data name="lbl_console.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 7</value>
+  </data>
+  <data name="lbl_console.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 24</value>
+  </data>
+  <data name="lbl_console.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_console.Text" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="lbl_console.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_console.Name" xml:space="preserve">
+    <value>lbl_console</value>
+  </data>
+  <data name="&gt;&gt;lbl_console.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_console.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;lbl_console.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tb_consoleLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 344</value>
+  </data>
+  <data name="tb_consoleLog.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>25, 3, 25, 3</value>
+  </data>
+  <data name="tb_consoleLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 218</value>
+  </data>
+  <data name="tb_consoleLog.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tb_consoleLog.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_consoleLog.Name" xml:space="preserve">
+    <value>tb_consoleLog</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleLog.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;tb_consoleLog.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_gCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 11</value>
+  </data>
+  <data name="lbl_gCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_gCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 24</value>
+  </data>
+  <data name="lbl_gCode.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_gCode.Text" xml:space="preserve">
+    <value>Loaded G-Code</value>
+  </data>
+  <data name="lbl_gCode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_gCode.Name" xml:space="preserve">
+    <value>lbl_gCode</value>
+  </data>
+  <data name="&gt;&gt;lbl_gCode.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_gCode.Parent" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;lbl_gCode.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pnl_homeGcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>868, 15</value>
+  </data>
+  <data name="pnl_homeGcode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="pnl_homeGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 608</value>
+  </data>
+  <data name="pnl_homeGcode.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeGcode.Name" xml:space="preserve">
+    <value>pnl_homeGcode</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeGcode.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeGcode.Parent" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeGcode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 89</value>
+  </data>
+  <data name="lbl_status.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 24</value>
+  </data>
+  <data name="lbl_status.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lbl_status.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lbl_status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_status.Name" xml:space="preserve">
+    <value>lbl_status</value>
+  </data>
+  <data name="&gt;&gt;lbl_status.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_status.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_status.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_mZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_mZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 56</value>
+  </data>
+  <data name="lbl_mZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_mZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="lbl_mZ.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbl_mZ.Text" xml:space="preserve">
+    <value>mZ:</value>
+  </data>
+  <data name="lbl_mZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_mZ.Name" xml:space="preserve">
+    <value>lbl_mZ</value>
+  </data>
+  <data name="&gt;&gt;lbl_mZ.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_mZ.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_mZ.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_mY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_mY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 56</value>
+  </data>
+  <data name="lbl_mY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 20, 0</value>
+  </data>
+  <data name="lbl_mY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="lbl_mY.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lbl_mY.Text" xml:space="preserve">
+    <value>mY:</value>
+  </data>
+  <data name="lbl_mY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_mY.Name" xml:space="preserve">
+    <value>lbl_mY</value>
+  </data>
+  <data name="&gt;&gt;lbl_mY.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_mY.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_mY.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_mX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_mX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 56</value>
+  </data>
+  <data name="lbl_mX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 20, 0</value>
+  </data>
+  <data name="lbl_mX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="lbl_mX.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lbl_mX.Text" xml:space="preserve">
+    <value>mX:</value>
+  </data>
+  <data name="lbl_mX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_mX.Name" xml:space="preserve">
+    <value>lbl_mX</value>
+  </data>
+  <data name="&gt;&gt;lbl_mX.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_mX.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_mX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_clearVisualizer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 14</value>
+  </data>
+  <data name="btn_clearVisualizer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_clearVisualizer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn_clearVisualizer.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;btn_clearVisualizer.Name" xml:space="preserve">
+    <value>btn_clearVisualizer</value>
+  </data>
+  <data name="&gt;&gt;btn_clearVisualizer.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btn_clearVisualizer.Parent" xml:space="preserve">
+    <value>pnl_visualizer</value>
+  </data>
+  <data name="&gt;&gt;btn_clearVisualizer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_visualizer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 135</value>
+  </data>
+  <data name="pnl_visualizer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 40, 40, 40</value>
+  </data>
+  <data name="pnl_visualizer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 366</value>
+  </data>
+  <data name="pnl_visualizer.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pnl_visualizer.Name" xml:space="preserve">
+    <value>pnl_visualizer</value>
+  </data>
+  <data name="&gt;&gt;pnl_visualizer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_visualizer.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;pnl_visualizer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tile_printPause.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_printPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 531</value>
+  </data>
+  <data name="tile_printPause.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 14, 7</value>
+  </data>
+  <data name="tile_printPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="tile_printPause.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tile_printPause.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tile_printPause.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;tile_printPause.Name" xml:space="preserve">
+    <value>tile_printPause</value>
+  </data>
+  <data name="&gt;&gt;tile_printPause.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_printPause.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;tile_printPause.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tile_printPlay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_printPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 531</value>
+  </data>
+  <data name="tile_printPlay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_printPlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="tile_printPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tile_printPlay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tile_printPlay.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;tile_printPlay.Name" xml:space="preserve">
+    <value>tile_printPlay</value>
+  </data>
+  <data name="&gt;&gt;tile_printPlay.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_printPlay.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;tile_printPlay.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_wZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_wZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 23</value>
+  </data>
+  <data name="lbl_wZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_wZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="lbl_wZ.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_wZ.Text" xml:space="preserve">
+    <value>wZ:</value>
+  </data>
+  <data name="lbl_wZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_wZ.Name" xml:space="preserve">
+    <value>lbl_wZ</value>
+  </data>
+  <data name="&gt;&gt;lbl_wZ.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_wZ.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_wZ.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_wY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_wY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 23</value>
+  </data>
+  <data name="lbl_wY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 20, 0</value>
+  </data>
+  <data name="lbl_wY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="lbl_wY.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_wY.Text" xml:space="preserve">
+    <value>wY:</value>
+  </data>
+  <data name="lbl_wY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_wY.Name" xml:space="preserve">
+    <value>lbl_wY</value>
+  </data>
+  <data name="&gt;&gt;lbl_wY.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_wY.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_wY.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_wX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_wX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 23</value>
+  </data>
+  <data name="lbl_wX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 20, 0</value>
+  </data>
+  <data name="lbl_wX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="lbl_wX.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_wX.Text" xml:space="preserve">
+    <value>wX:</value>
+  </data>
+  <data name="lbl_wX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_wX.Name" xml:space="preserve">
+    <value>lbl_wX</value>
+  </data>
+  <data name="&gt;&gt;lbl_wX.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_wX.Parent" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;lbl_wX.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pnl_homeDisp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 15</value>
+  </data>
+  <data name="pnl_homeDisp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="pnl_homeDisp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 608</value>
+  </data>
+  <data name="pnl_homeDisp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeDisp.Name" xml:space="preserve">
+    <value>pnl_homeDisp</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeDisp.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeDisp.Parent" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeDisp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnl_homeOptions.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_home.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 287</value>
+  </data>
+  <data name="tile_home.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_home.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_home.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tile_home.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="tile_home.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_home.Name" xml:space="preserve">
+    <value>tile_home</value>
+  </data>
+  <data name="&gt;&gt;tile_home.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_home.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_home.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tile_zNeg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 344</value>
+  </data>
+  <data name="tile_zNeg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_zNeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_zNeg.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tile_zNeg.Text" xml:space="preserve">
+    <value>Z-</value>
+  </data>
+  <data name="tile_zNeg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_zNeg.Name" xml:space="preserve">
+    <value>tile_zNeg</value>
+  </data>
+  <data name="&gt;&gt;tile_zNeg.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_zNeg.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_zNeg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tile_zPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 230</value>
+  </data>
+  <data name="tile_zPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_zPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_zPos.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tile_zPos.Text" xml:space="preserve">
+    <value>Z+</value>
+  </data>
+  <data name="tile_zPos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_zPos.Name" xml:space="preserve">
+    <value>tile_zPos</value>
+  </data>
+  <data name="&gt;&gt;tile_zPos.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_zPos.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_zPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tile_zero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 287</value>
+  </data>
+  <data name="tile_zero.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_zero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_zero.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tile_zero.Text" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="tile_zero.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_zero.Name" xml:space="preserve">
+    <value>tile_zero</value>
+  </data>
+  <data name="&gt;&gt;tile_zero.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_zero.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_zero.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tile_yNeg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 344</value>
+  </data>
+  <data name="tile_yNeg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_yNeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_yNeg.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tile_yNeg.Text" xml:space="preserve">
+    <value>Y-</value>
+  </data>
+  <data name="tile_yNeg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_yNeg.Name" xml:space="preserve">
+    <value>tile_yNeg</value>
+  </data>
+  <data name="&gt;&gt;tile_yNeg.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_yNeg.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_yNeg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tile_xPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 287</value>
+  </data>
+  <data name="tile_xPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_xPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_xPos.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tile_xPos.Text" xml:space="preserve">
+    <value>X+</value>
+  </data>
+  <data name="tile_xPos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_xPos.Name" xml:space="preserve">
+    <value>tile_xPos</value>
+  </data>
+  <data name="&gt;&gt;tile_xPos.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_xPos.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_xPos.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tile_xNeg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 287</value>
+  </data>
+  <data name="tile_xNeg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_xNeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_xNeg.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tile_xNeg.Text" xml:space="preserve">
+    <value>X-</value>
+  </data>
+  <data name="tile_xNeg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_xNeg.Name" xml:space="preserve">
+    <value>tile_xNeg</value>
+  </data>
+  <data name="&gt;&gt;tile_xNeg.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_xNeg.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_xNeg.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tile_yPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 230</value>
+  </data>
+  <data name="tile_yPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tile_yPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="tile_yPos.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tile_yPos.Text" xml:space="preserve">
+    <value>Y+</value>
+  </data>
+  <data name="tile_yPos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_yPos.Name" xml:space="preserve">
+    <value>tile_yPos</value>
+  </data>
+  <data name="&gt;&gt;tile_yPos.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_yPos.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_yPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="homePosLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 189</value>
+  </data>
+  <data name="homePosLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="homePosLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 22</value>
+  </data>
+  <data name="homePosLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="homePosLabel.Text" xml:space="preserve">
+    <value>Home Positioning</value>
+  </data>
+  <data name="homePosLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;homePosLabel.Name" xml:space="preserve">
+    <value>homePosLabel</value>
+  </data>
+  <data name="&gt;&gt;homePosLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;homePosLabel.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;homePosLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tile_text.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 45</value>
+  </data>
+  <data name="tile_text.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tile_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 54</value>
+  </data>
+  <data name="tile_text.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tile_text.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="tile_text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_text.Name" xml:space="preserve">
+    <value>tile_text</value>
+  </data>
+  <data name="&gt;&gt;tile_text.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_text.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_text.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tile_importGcode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_importGcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 45</value>
+  </data>
+  <data name="tile_importGcode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tile_importGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 116</value>
+  </data>
+  <data name="tile_importGcode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tile_importGcode.Text" xml:space="preserve">
+    <value>Import G-Code</value>
+  </data>
+  <data name="tile_importGcode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_importGcode.Name" xml:space="preserve">
+    <value>tile_importGcode</value>
+  </data>
+  <data name="&gt;&gt;tile_importGcode.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_importGcode.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_importGcode.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tile_shapes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tile_shapes.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tile_shapes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 107</value>
+  </data>
+  <data name="tile_shapes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tile_shapes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 54</value>
+  </data>
+  <data name="tile_shapes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tile_shapes.Text" xml:space="preserve">
+    <value>Shapes</value>
+  </data>
+  <data name="tile_shapes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tile_shapes.Name" xml:space="preserve">
+    <value>tile_shapes</value>
+  </data>
+  <data name="&gt;&gt;tile_shapes.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tile_shapes.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;tile_shapes.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="featuresLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 11</value>
+  </data>
+  <data name="featuresLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="featuresLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 22</value>
+  </data>
+  <data name="featuresLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="featuresLabel.Text" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="featuresLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;featuresLabel.Name" xml:space="preserve">
+    <value>featuresLabel</value>
+  </data>
+  <data name="&gt;&gt;featuresLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;featuresLabel.Parent" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;featuresLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pnl_homeOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 15</value>
+  </data>
+  <data name="pnl_homeOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="pnl_homeOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 608</value>
+  </data>
+  <data name="pnl_homeOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeOptions.Name" xml:space="preserve">
+    <value>pnl_homeOptions</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeOptions.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeOptions.Parent" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;pnl_homeOptions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroTabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="metroTabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="metroTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1272, 626</value>
+  </data>
+  <data name="metroTabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroTabPage1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Name" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Parent" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_config.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmb_waUnits.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cmb_waUnits.Items" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="cmb_waUnits.Items1" xml:space="preserve">
+    <value>ft</value>
+  </data>
+  <data name="cmb_waUnits.Items2" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="cmb_waUnits.Items3" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="cmb_waUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 56</value>
+  </data>
+  <data name="cmb_waUnits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="cmb_waUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 25</value>
+  </data>
+  <data name="cmb_waUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cmb_waUnits.Name" xml:space="preserve">
+    <value>cmb_waUnits</value>
+  </data>
+  <data name="&gt;&gt;cmb_waUnits.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cmb_waUnits.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;cmb_waUnits.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb_waWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 56</value>
+  </data>
+  <data name="tb_waWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 17, 3</value>
+  </data>
+  <data name="tb_waWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="tb_waWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="tb_waWidth.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;tb_waWidth.Name" xml:space="preserve">
+    <value>tb_waWidth</value>
+  </data>
+  <data name="&gt;&gt;tb_waWidth.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tb_waWidth.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;tb_waWidth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tb_waLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 56</value>
+  </data>
+  <data name="tb_waLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 17, 3</value>
+  </data>
+  <data name="tb_waLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="tb_waLength.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tb_waLength.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="&gt;&gt;tb_waLength.Name" xml:space="preserve">
+    <value>tb_waLength</value>
+  </data>
+  <data name="&gt;&gt;tb_waLength.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tb_waLength.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;tb_waLength.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_workArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 56</value>
+  </data>
+  <data name="lbl_workArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 4, 0</value>
+  </data>
+  <data name="lbl_workArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="lbl_workArea.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lbl_workArea.Text" xml:space="preserve">
+    <value>Work Area</value>
+  </data>
+  <data name="lbl_workArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_workArea.Name" xml:space="preserve">
+    <value>lbl_workArea</value>
+  </data>
+  <data name="&gt;&gt;lbl_workArea.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_workArea.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;lbl_workArea.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.Items" xml:space="preserve">
+    <value>rpm</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 146</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 25</value>
+  </data>
+  <data name="cmb_spindleSpeedUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cmb_spindleSpeedUnits.Name" xml:space="preserve">
+    <value>cmb_spindleSpeedUnits</value>
+  </data>
+  <data name="&gt;&gt;cmb_spindleSpeedUnits.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cmb_spindleSpeedUnits.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;cmb_spindleSpeedUnits.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tb_spindleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 146</value>
+  </data>
+  <data name="tb_spindleSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 17, 3</value>
+  </data>
+  <data name="tb_spindleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="tb_spindleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tb_spindleSpeed.Text" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;tb_spindleSpeed.Name" xml:space="preserve">
+    <value>tb_spindleSpeed</value>
+  </data>
+  <data name="&gt;&gt;tb_spindleSpeed.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tb_spindleSpeed.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;tb_spindleSpeed.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_spindleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 146</value>
+  </data>
+  <data name="lbl_spindleSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 4, 0</value>
+  </data>
+  <data name="lbl_spindleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="lbl_spindleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lbl_spindleSpeed.Text" xml:space="preserve">
+    <value>Spindle Speed</value>
+  </data>
+  <data name="lbl_spindleSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_spindleSpeed.Name" xml:space="preserve">
+    <value>lbl_spindleSpeed</value>
+  </data>
+  <data name="&gt;&gt;lbl_spindleSpeed.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_spindleSpeed.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;lbl_spindleSpeed.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_saveCnfg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 200</value>
+  </data>
+  <data name="btn_saveCnfg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 38</value>
+  </data>
+  <data name="btn_saveCnfg.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btn_saveCnfg.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_saveCnfg.Name" xml:space="preserve">
+    <value>btn_saveCnfg</value>
+  </data>
+  <data name="&gt;&gt;btn_saveCnfg.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btn_saveCnfg.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;btn_saveCnfg.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmb_feedRateUnits.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cmb_feedRateUnits.Items" xml:space="preserve">
+    <value>in/min</value>
+  </data>
+  <data name="cmb_feedRateUnits.Items1" xml:space="preserve">
+    <value>mm/min</value>
+  </data>
+  <data name="cmb_feedRateUnits.Items2" xml:space="preserve">
+    <value>cm/min</value>
+  </data>
+  <data name="cmb_feedRateUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 101</value>
+  </data>
+  <data name="cmb_feedRateUnits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="cmb_feedRateUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 25</value>
+  </data>
+  <data name="cmb_feedRateUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cmb_feedRateUnits.Name" xml:space="preserve">
+    <value>cmb_feedRateUnits</value>
+  </data>
+  <data name="&gt;&gt;cmb_feedRateUnits.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cmb_feedRateUnits.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;cmb_feedRateUnits.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tb_feedRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 101</value>
+  </data>
+  <data name="tb_feedRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 17, 3</value>
+  </data>
+  <data name="tb_feedRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="tb_feedRate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tb_feedRate.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tb_feedRate.Name" xml:space="preserve">
+    <value>tb_feedRate</value>
+  </data>
+  <data name="&gt;&gt;tb_feedRate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tb_feedRate.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;tb_feedRate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_feedRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 101</value>
+  </data>
+  <data name="lbl_feedRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 23, 4, 0</value>
+  </data>
+  <data name="lbl_feedRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="lbl_feedRate.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_feedRate.Text" xml:space="preserve">
+    <value>Feed Rate</value>
+  </data>
+  <data name="lbl_feedRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_feedRate.Name" xml:space="preserve">
+    <value>lbl_feedRate</value>
+  </data>
+  <data name="&gt;&gt;lbl_feedRate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lbl_feedRate.Parent" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;lbl_feedRate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pnl_config.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 15</value>
+  </data>
+  <data name="pnl_config.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="pnl_config.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 608</value>
+  </data>
+  <data name="pnl_config.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnl_config.Name" xml:space="preserve">
+    <value>pnl_config</value>
+  </data>
+  <data name="&gt;&gt;pnl_config.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pnl_config.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;pnl_config.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroTabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="metroTabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="metroTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1272, 626</value>
+  </data>
+  <data name="metroTabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroTabPage2.Text" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Name" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Parent" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="metroTabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="metroTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 665</value>
+  </data>
+  <data name="metroTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Name" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 60, 24, 17</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CNC Toolshop 1.1</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Name" xml:space="preserve">
+    <value>fileSystemWatcher1</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;metroStyleExtender1.Name" xml:space="preserve">
+    <value>metroStyleExtender1</value>
+  </data>
+  <data name="&gt;&gt;metroStyleExtender1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleExtender, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Name" xml:space="preserve">
+    <value>metroStyleManager1</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>333, 40</value>
+  </metadata>
+  <metadata name="metroStyleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 40</value>
+  </metadata>
+</root>

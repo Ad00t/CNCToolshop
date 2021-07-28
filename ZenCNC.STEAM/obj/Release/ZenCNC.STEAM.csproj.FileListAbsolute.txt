@@ -1,0 +1,7 @@
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\bin\Release\config\grbl_v0.9j.xml
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\bin\Release\ZenCNC.STEAM.dll
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\bin\Release\ZenCNC.STEAM.pdb
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\obj\Release\ZenCNC.STEAM.csproj.AssemblyReference.cache
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\obj\Release\ZenCNC.STEAM.csproj.CoreCompileInputs.cache
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\obj\Release\ZenCNC.STEAM.dll
+C:\Users\adhit\Programming\Freelance\CNCToolshop\ZenCNC.STEAM\obj\Release\ZenCNC.STEAM.pdb
